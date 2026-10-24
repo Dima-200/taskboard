@@ -43,3 +43,7 @@ git clone https://github.com/Dima-200/taskboard.git
 
 2. Відкрий папку у VS Code.
 3. Запусти `index.html` через Live Server.
+
+## Демо
+
+[Відкрити сайт](https://dima-200.github.io/taskboard/)
