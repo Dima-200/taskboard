@@ -1,10 +1,11 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="uk">
 <head>
-  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TaskBoard: дошка завдань</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -23,7 +24,8 @@
       <h1>Дошка завдань</h1>
       <p>TaskBoard допоможе записувати справи, ставити пріоритети та відмічати виконане. Це навчальний проєкт курсу «Технології створення веб-застосунків».</p>
     </section>
-        <section class="card">
+
+    <section class="card">
       <h2>Нова задача</h2>
       <form id="task-form" class="task-form">
         <div class="form-row">
@@ -51,6 +53,12 @@
         <button type="submit" class="btn">Додати задачу</button>
         <p id="form-message" class="form-message" role="alert"></p>
       </form>
+    </section>
+
+    <section class="card">
+      <h2>Мої завдання</h2>
+      <p id="counter" class="counter">Задач немає</p>
+      <ul id="task-list" class="task-list"></ul>
     </section>
   </main>
 
